@@ -54,7 +54,7 @@
       <h2 class="text-4xl text-center">Por que elegirnos?</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10">
         <div class="p-4 rounded-3xl mx-auto mt-10 border-2 border-primary">
-          <img src="images/web-development.png" alt="Desarrollo Web" class="h-16 mx-auto">
+          <img src="images/profesional.png" alt="Desarrollo Web" class="h-16 mx-auto">
           <h3 class="text-center text-2xl font-bold uppercase">Experiencia y Profesionalismo</h3>
           <hr class="border-4 rounded-lg border-primary w-10 mx-auto my-3">
           <p class="text-lg text-center">Contamos con un equipo de profesionales con años de experiencia en el diseño y desarrollo web.</p>
@@ -63,7 +63,7 @@
         </div>
         
         <div class="bg-gray-200 p-4 rounded-lg mx-auto mt-10">
-          <img src="images/web-development.png" alt="Desarrollo Web" class="h-16 mx-auto">
+          <img src="images/custom.png" alt="Desarrollo Web" class="h-16 mx-auto">
           <h3 class="text-center text-2xl font-bold uppercase">Soluciones Personalizadas</h3>
           <hr class="border-4 rounded-lg border-black w-10 mx-auto my-3">
           <p class="text-lg text-center">Cada negocio es único, por eso ofrecemos soluciones a medida que se ajustan a tus necesidades específicas.</p>
@@ -72,7 +72,7 @@
         </div>
   
         <div class="bg-gray-200 p-4 rounded-lg mx-auto mt-10">
-          <img src="images/web-development.png" alt="Desarrollo Web" class="h-16 mx-auto">
+          <img src="images/technology.png" alt="Desarrollo Web" class="h-16 mx-auto">
           <h3 class="text-center text-2xl font-bold uppercase">Innovación y Tecnología</h3>
           <hr class="border-4 rounded-lg border-black w-10 mx-auto my-3">
           <p class="text-lg text-center">
@@ -84,7 +84,7 @@
         </div>
   
         <div class="bg-gray-200 p-4 rounded-lg mx-auto mt-10">
-          <img src="images/web-development.png" alt="Desarrollo Web" class="h-16 mx-auto">
+          <img src="images/warranty.png" alt="Desarrollo Web" class="h-16 mx-auto">
           <h3 class="text-center text-2xl font-bold uppercase">Satisfacción Garantizada</h3>
           <hr class="border-4 rounded-lg border-black w-10 mx-auto my-3">
           <p class="text-lg text-center">
@@ -97,11 +97,11 @@
       </div>
     </div>
 
-    <div class="my-10 w-[80%] mx-auto bg-primary rounded-3xl">
+    <div class="my-10 mx-auto bg-primary md:w-[80%] md:rounded-3xl">
       <h2 class="text-4xl text-center text-white">Contáctanos</h2>
       <hr class="border-2 border-white w-[40%] mx-auto my-5">
-      <div class="flex">
-        <div class="w-1/2 ml-5 flex flex-col">
+      <div class="flex  flex-col md:flex-row">
+        <div class="w-full md:w-1/2 ml-5 flex flex-col">
           <div>
             <h3 class="text-white text-3xl">Correo:</h3>
             <a class="text-white" href="mailto:contacto@devsolutions.mx">contacto@devsolutions.mx</a>
@@ -111,7 +111,7 @@
             <p class="text-white">442-222-222</p>
           </div>
         </div>
-        <div class="w-1/2 p-4">
+        <div class="w-full md:w-1/2 p-4">
           <h3 class="text-2xl text-white">Envíanos un mensaje</h3>
           <form action="#" method="POST" class="mt-4">
             <div class="mb-4">
