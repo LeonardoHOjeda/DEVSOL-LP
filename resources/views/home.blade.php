@@ -110,7 +110,7 @@
     <div class="my-10 mx-auto bg-primary md:w-[80%] md:rounded-3xl">
       <h2 class="text-4xl text-center text-white pt-10">Contáctanos</h2>
       <hr class="border-2 border-white w-[40%] mx-auto my-5">
-      <div class="flex  flex-col md:flex-row">
+      <div class="flex  flex-col md:flex-row px-16">
         <div class="w-full md:w-1/2 ml-5 flex flex-col">
           <div>
             <h3 class="text-white text-3xl">Correo:</h3>
