@@ -7,20 +7,13 @@
                   <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
                   <span class="text-white self-center text-2xl font-semibold whitespace-nowrap">DevSolutions MX</span>
               </a>
-              <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
-                  <li>
-                      <a href="#" class="text-white hover:underline me-4 md:me-6">Inicio</a>
-                  </li>
-                  <li>
-                      <a href="#" class="text-white hover:underline me-4 md:me-6">Privacy Policy</a>
-                  </li>
-                  <li>
-                      <a href="#" class="text-white hover:underline me-4 md:me-6">Licensing</a>
-                  </li>
-                  <li>
-                      <a href="#" class="text-white hover:underline">Contact</a>
-                  </li>
-              </ul>
+              <div class="flex flex-col md:flex-row gap-3 text-center">
+                <a href="#" class="text-white hover:underline me-4 md:me-6">Inicio</a>
+                <a href="#" class="text-white hover:underline me-4 md:me-6">Quienes Somos</a>
+                <a href="#" class="text-white hover:underline me-4 md:me-6">Nuestros Servicios</a>
+                <a href="#" class="text-white hover:underline">¿Por qué elegirnos?</a>
+                <a href="#" class="text-white hover:underline">Contáctanos</a>
+              </div>
           </div>
           <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
           <span class="block text-white sm:text-center">Hecho con ❤️ por <a href="https://www.devsolutions.mx" class="hover:underline">DevSolutionsMX</a></span>
