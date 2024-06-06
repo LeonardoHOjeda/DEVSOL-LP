@@ -1,7 +1,5 @@
 <template>
-  <NavLink href="/">
-    
-  </NavLink>
+  <NavLink href="/"> </NavLink>
 </template>
 
 <script setup lang="ts">
