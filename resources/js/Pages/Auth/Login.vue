@@ -3,9 +3,9 @@ import Checkbox from '@/Components/Checkbox.vue'
 import GuestLayout from '@/Layouts/GuestLayout.vue'
 import InputError from '@/Components/InputError.vue'
 import InputLabel from '@/Components/InputLabel.vue'
-import PrimaryButton from '@/Components/PrimaryButton.vue'
 import TextInput from '@/Components/TextInput.vue'
-import { Head, Link, useForm } from '@inertiajs/vue3'
+import { Head, useForm } from '@inertiajs/vue3'
+import Button from '@/Components/Button.vue'
 
 defineProps<{
   canResetPassword?: boolean
@@ -29,7 +29,7 @@ const submit = () => {
 
 <template>
   <GuestLayout>
-    <Head title="Log in" />
+    <Head title="Inicio de Sesión" />
 
     <div v-if="status" class="mb-4 font-medium text-sm text-green-600">
       {{ status }}
@@ -37,14 +37,13 @@ const submit = () => {
 
     <form @submit.prevent="submit">
       <div>
-        <InputLabel for="email" value="Email" />
+        <InputLabel for="email" value="Correo Electrónico" />
 
         <TextInput
           id="email"
           type="email"
           class="mt-1 block w-full"
           v-model="form.email"
-          required
           autofocus
           autocomplete="username"
         />
@@ -53,14 +52,13 @@ const submit = () => {
       </div>
 
       <div class="mt-4">
-        <InputLabel for="password" value="Password" />
+        <InputLabel for="password" value="Contraseña" />
 
         <TextInput
           id="password"
           type="password"
           class="mt-1 block w-full"
           v-model="form.password"
-          required
           autocomplete="current-password"
         />
 
@@ -70,18 +68,17 @@ const submit = () => {
       <div class="block mt-4">
         <label class="flex items-center">
           <Checkbox name="remember" v-model:checked="form.remember" />
-          <span class="ms-2 text-sm text-gray-600">Remember mes</span>
+          <span class="ms-2 text-sm text-gray-600"> Mantenerme conectado </span>
         </label>
       </div>
 
       <div class="flex items-center justify-end mt-4">
-        <PrimaryButton
-          class="ms-4"
+        <Button
           :class="{ 'opacity-25': form.processing }"
           :disabled="form.processing"
         >
-          Log in
-        </PrimaryButton>
+          Iniciar Sesión
+        </Button>
       </div>
     </form>
   </GuestLayout>
